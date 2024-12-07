@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* ::-moz-selection {
+  background-color: #001f3f;
+  color: #fff;
+}
+* ::selection {
+  background-color: #001f3f;
+  color: #fff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 680px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 920px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+.nav {
+  background-color: #fff;
+  padding: 10px 0;
+}
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .container .logo {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  font-weight: 800;
+}
+.nav .container .logo p {
+  margin-right: 15px;
+}
+.nav .container .logo img {
+  width: 60px;
+}
+.nav .container button {
+  padding: 12px 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-right: 20px;
+  font-weight: 500;
+  outline: none;
+  background-color: #005dd1;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+}
+.nav .container .right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav .container .right-side .email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav .container .right-side .email h2 {
+  font-size: 16px;
+}
+.nav .container img {
+  width: 30px;
+}
+
+.App {
+  height: calc(100vh - 130px - 80px);
+}
+.App .container {
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App .container .prompt {
+  background-color: #001f3f;
+  padding: 30px 50px;
+  border-radius: 10px;
+  width: 80%;
+}
+.App .container .prompt .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.App .container .prompt .icons img {
+  width: 40px;
+  padding: 2px;
+  background-color: #fff;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+.App .container .prompt input {
+  width: 100%;
+  font-size: 16px;
+  padding: 7px 8px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+}
+.App .container .prompt button {
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  background-color: #005dd1;
+  color: #fff;
+  margin-left: 20px;
+}
+.App .container .prompt img {
+  width: 30px;
+}
+
+.footer {
+  height: 130px;
+  background-color: #fff;
+}
+.footer .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer .container h2 {
+  color: #001f3f;
+}
+.footer .container .context {
+  width: 40%;
+}
+.footer .container .context p {
+  color: #303030;
+}
+.footer .container .footer-links ul {
+  list-style: none;
+}
+.footer .container .footer-links ul li {
+  font-size: 14px;
+  color: #636363;
+}
+.footer .container img {
+  width: 120px;
+  margin-left: 30px;
+}/*# sourceMappingURL=style.css.map */
