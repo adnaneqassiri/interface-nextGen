@@ -1,13 +1,15 @@
 import "./style.css";
-import insertIcon from "./images/insert-icon.png";
-import enterIcon from "./images/enter-icon.png";
+import insertIcon from "./images/insert.png";
+import enterIcon from "./images/next.png";
 function App() {
   return (
     <div className="App">
       <div className="container">
         <div className="prompt">
-          <div>
-            <input type="text" placeholder="Your Prompt here..." />
+          <h2>How can I help you today ? </h2>
+
+          <div className="iyad">
+            <input type="text" placeholder="Message NextGen..." />
           </div>
           <div className="icons">
             <img src={insertIcon} alt="" />
